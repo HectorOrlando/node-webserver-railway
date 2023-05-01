@@ -15,7 +15,7 @@ app.use(express.static('public'));
 // enviar datos del "controlador a la vista: name y title,  al home.hbs"
 app.get('/', (req, res) => {
     res.render('home', {
-        name: 'Hector Orlando',
+        name: 'Hector Orlando Guavita Rojas',
         title: 'Curso de Node'
     });
 });
